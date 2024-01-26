@@ -1,0 +1,117 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    background: linear-gradient(to right bottom, #2980B9, #6DD5FA);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('./bg.jpg') center/cover no-repeat;
+    min-height: 100vh;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.container {
+    max-width: 320px;
+    width: 400px;
+    height: 390px;
+    margin : 0;
+    margin-top: 100px;
+    padding: 20px;
+    background-color:transparent;
+    border :2px solid rgba(225,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgb(0, 0, 0, 0.5);
+
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    color: #000000; 
+    font-weight: bold; 
+    font-size: 1em; 
+    letter-spacing: 1px;
+}
+
+input {
+    width: 80%;
+    outline: none;
+    padding: 0 30px;
+    line-height: 40px;
+    border-radius: 5px;
+    border: 2px solid #0e0f0f;
+    background: transparent;
+}
+
+input::placeholder {
+    color: #999;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.login-heading {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.containerRegis {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px;
+    margin-top: 10px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: blue; 
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    text-decoration: underline;
+}
